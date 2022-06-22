@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(237, 136, 53);
+}
+
+.user-location {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+input.location-search {
+  background-color: rgb(128, 124, 124);
+  color: white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+}
+
+input.location-search::placeholder {
+  color: white;
+}
+
+button {
+  background-color: rgb(128, 124, 124);
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
